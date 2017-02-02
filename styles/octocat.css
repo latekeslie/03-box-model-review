@@ -1,27 +1,31 @@
 body {
  margin: 0;
+ font-family: sans-serif;
+
 }
 
 .grid-container {
+
   overflow: auto;
-  margin: 2rem;
 }
 
 .grid-item {
+  max-width: 20rem;
   float: left;
   width: calc(100% / 3 - 2rem - 2rem);
   margin: 2rem;
 }
 
 .img-octocats {
-  max-width: 25rem;
-  border: .025rem black solid;
+  max-width: 100%;
+  border: .025rem darkgrey solid;
   border-radius: 2%;
 }
 
 .img-avatar {
   max-width: 2rem;
   border-radius: 10%;
+  vertical-align: middle;
 }
 
 .title {
@@ -31,9 +35,12 @@ body {
 .number {
   float:left;
   margin-top: .5rem;
+  color: darkgrey;
 }
 
 .grid-footer {
   overflow: auto;
-  border-bottom: .025rem black solid;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  border-bottom: .025rem darkgrey solid;
 }
