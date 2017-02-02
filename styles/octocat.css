@@ -1,3 +1,59 @@
 body {
+ margin: 0;
+ font-family: sans-serif;
 
+}
+
+ul {
+  padding-left: 0
+  list-style: none;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 65rem;
+  margin: auto;
+}
+.grid-container {
+
+  overflow: auto;
+}
+
+.grid-item {
+  max-width: 20rem;
+  float: left;
+  width: calc(100% / 3 - 2rem - 2rem);
+  margin: 2rem;
+}
+
+.img-octocats {
+  max-width: 100%;
+  border: .025rem darkgrey solid;
+  border-radius: 2%;
+}
+
+.img-avatar {
+  max-width: 2rem;
+  border-radius: 10%;
+  vertical-align: middle;
+}
+
+.title {
+  float: right;
+}
+
+.number {
+  float:left;
+  margin-top: .5rem;
+  color: darkgrey;
+}
+
+.grid-footer { /*use overflow auto & get rid of padding*/
+  overflow: auto;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  border-bottom: .025rem darkgrey solid;
 }
