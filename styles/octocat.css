@@ -4,6 +4,19 @@ body {
 
 }
 
+ul {
+  padding-left: 0
+  list-style: none;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 65rem;
+  margin: auto;
+}
 .grid-container {
 
   overflow: auto;
@@ -38,7 +51,7 @@ body {
   color: darkgrey;
 }
 
-.grid-footer {
+.grid-footer { /*use overflow auto & get rid of padding*/
   overflow: auto;
   padding-top: .25rem;
   padding-bottom: .25rem;
